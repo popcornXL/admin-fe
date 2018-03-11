@@ -121,7 +121,7 @@ const OrderList = React.createClass({
                                                 </td>
                                                 <td>{order.receiverName}</td>
                                                 <td>{order.statusDesc}</td>
-                                                <td>￥{order.payment}</td>
+                                                <td>${order.payment}</td>
                                                 <td>{order.createTime}</td>
                                                 <td>
                                                     <Link className="opear" to={ '/order/detail/' + order.orderNo}>查看</Link>
